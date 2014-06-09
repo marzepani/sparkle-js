@@ -1,0 +1,7 @@
+DirectoryIndex index.html index.php demo.html
+
+<IFModule mod_deflate.c>
+	<filesmatch "\.(js|css|html|jpg|png|php)$">
+		SetOutputFilter DEFLATE
+	</filesmatch>
+</IFModule>
