@@ -18,7 +18,7 @@ The effect will be visible in the gaps, left and right of the wrapper.
 
 ```js
 var sparkle = new Sparkle();
-sparkle.init('#wrapper');˘
+sparkle.init('#wrapper');
 ```
 
 
